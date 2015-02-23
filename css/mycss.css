@@ -24,8 +24,10 @@ body {
     background-color: #3b5998;
     height: 75px;
     margin: 100px 0px 0px 0px;
+    padding: 0px 3px 0px 0px;
     min-width: 250px;
-    border-radius: 10%;
+    border-radius: 0%;
+    color: white;
 }
 
 .email-click{
@@ -33,7 +35,8 @@ body {
     height: 75px;
     margin: 0px 0px 0px 0px;
     min-width: 250px;
-    border-radius: 10%;
+    border-radius: 0%;
+    color: white;
 }
 
 .profile-button {
@@ -96,4 +99,14 @@ body {
 
 .how_you_did {
     background: #62DA97;
+}
+.log-in-submit {
+    font-size: 20px;
+    margin-left: 20px;
+    border-radius: 5px;
+    height: 50px;
+    width: 100px;
+    background-color: #ADD8E6;
+    border: none;
+    padding: 13px 0px 0px 17px;
 }
