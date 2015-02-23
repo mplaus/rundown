@@ -6,7 +6,7 @@ body {
 
 .page-heading {
     color: #61c7ce;
-    font-size: 45px;
+    font-size: 40px;
     margin: 15px 0px 0px 30px;
     border-bottom: 3px solid white;
 }
@@ -34,6 +34,13 @@ body {
     min-width: 300px;
 }
 
+.profile-button {
+    background-color: #a47dff;
+    font-size: 20px;
+    padding: 5px;
+    color: white;
+}
+
 .big-words {
     font-size: 25px;
     color: white;
@@ -47,9 +54,44 @@ body {
     height: 100px;
     width: 100px;
     background-color: #7092ff;
-    margin: 0px 10px 25px 10px;
+    margin: 0px 0px 25px 0px;
     border-radius: 7%;
     text-align: center;
     color: white;
     padding: 35px 0px 0px 0px;
+}
+.possible_answer {
+    background: #7092ff;
+}
+.possible_answer:hover {
+    background: #6a66e8;
+}
+.correct-answer, .wrong-answer {
+	opacity: .75;
+	cursor: pointer;
+}
+
+.wrong-answer {
+	background: #FF8362;	
+}
+.wrong-answer:hover {
+	background: #FF8362;	
+}
+
+.correct-answer {
+    background: #62DA97;
+}
+.correct-answer:hover {
+    background: #62DA97;
+}
+.selected {
+    opacity: 1;
+}
+
+.selected:hover, .correct-answer:hover, .wrong-answer:hover {
+	opacity: 1;
+}
+
+.how_you_did {
+    background: #62DA97;
 }
