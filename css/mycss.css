@@ -20,18 +20,20 @@ body {
     margin-right: 15px;
 }
 
-.fb-button{
+.fb-click{
     background-color: #3b5998;
     height: 75px;
     margin: 100px 0px 0px 0px;
-    min-width: 300px;
+    min-width: 250px;
+    border-radius: 10%;
 }
 
-.email-button{
+.email-click{
     background-color: #ADD8E6;
     height: 75px;
     margin: 0px 0px 0px 0px;
-    min-width: 300px;
+    min-width: 250px;
+    border-radius: 10%;
 }
 
 .profile-button {
